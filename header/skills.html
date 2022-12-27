@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/skills.css">
+    <title>Skills</title>
+</head>
+<header>
+    <nav class="navbar">
+                <a class="papa" href="index.html">
+                    <img home src="css/image_header/home.png" alt="Menu Principale" onmouseover=passageDeLaSouris(this); onmouseout=departDeLaSouris(this); />
+                </a>
+                <a href="propo.html">
+                    <p>A Propos de moi</p>
+                </a>
+                <a href="portfolio.html">
+                    <p>Portfolio</p>
+                </a>
+                <a href="experience.html">
+                    <p>Experience</p>
+                </a>
+                <a href="avis.html">
+                    <p>Avis</p>
+                </a>
+                <a href="contact.html">
+                    <p>Contact</p>
+                </a>
+    </nav>
+</header>
+<body>
+<script>
+ //Affecte la nouvelle image lorsque la souris survole l'élément
+    function passageDeLaSouris(element) {
+        element.setAttribute('src', 'css/image_header/home_v.png');
+        }
+        //Affecte l'image de départ lorsque la souris ne survole plus l'élément
+        function departDeLaSouris(element) {
+        element.setAttribute('src', 'css/image_header/home.png');
+        }</script>
+</body>
+</html>
