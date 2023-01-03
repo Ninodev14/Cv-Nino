@@ -14,15 +14,16 @@ h2 {
     line-height: 100%;
 }
 
-
-/* Fin Typo */
-
-
-header{
+body{
     background-image: url("image_header/index_img/Article-Rayan-Morgan-39-3-scaled-1800x900.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+/* Fin Typo */
+
+
+header{
     min-height: calc(1161px - 0px);
     position: absolute;
     height: 60px;
@@ -63,15 +64,14 @@ a:hover,a:focus {
 /* Fin header */
 
 .info{
-    padding: 40px;
-    margin-top: 200px;
-    margin-left: 500px;
+    padding: 2%;
+    margin-top: 10%;
+    margin-left: 14%;
     margin-right: 340px;
     background-color: rgb(255, 255, 255);
     border-radius: 100px;
     color: black;
     z-index: 10;
-    border: solid 0.1px rgb(0, 0, 0);
 }
 
 .info img{
@@ -82,7 +82,7 @@ width: 40%;
 }
 
 .info .nom{
-margin-left: 650px;
+margin-left: 42%;
 }
 .info .transition{
     display: block;
@@ -95,15 +95,15 @@ background-color: rgb(112, 181, 254); ;
 }
 
 .info .question{
-    margin-left: 660px;
-    margin-top: 50px;
+    margin-left: 42%;
+    margin-top: 3%;
 }
 
 .info .reponce{
     display: block;
     margin-top: -220px;
     margin-left: 900px;
-    padding-bottom: 120px;
+
 
 }
 
@@ -111,34 +111,22 @@ background-color: rgb(112, 181, 254); ;
     font-style: italic;
 }
 
-.reseaux{
+.info .reseaux{
     padding: 40px;
-    margin-top: -100px;
-    margin-left: 500px;
-    margin-right: 340px;
-display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
     background-color: rgb(112, 181, 254);
     border-bottom-left-radius: 100px;
     border-bottom-right-radius: 100px;
     z-index: 10;
-    border: solid 0.1px rgb(0, 0, 0);
+   
 }
 
-.reseaux  img {
-    margin-left: 70%;
+.info .reseaux  img {
+    margin-left: 50%;
     width: 35%;
     height: auto;
+    z-index: 15;
 }
 
-/*.surcouche{
-    background-color: rgb(225, 223, 225);
-    position: absolute;
-    border-radius: 100px;
-    margin-top: -835px;
-    margin-left:480px ;
-    padding-top: 831px ;
-    padding-left: 1561px;
-    z-index: -1;
-    border: solid 0.1px rgb(0, 0, 0);
-} 
-*/
