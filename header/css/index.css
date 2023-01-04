@@ -66,6 +66,7 @@ a:hover,a:focus {
 .info{
     
     padding: 2%;
+    padding-bottom: 12%;
     margin-top: 7%;
     margin-left: 18%;
     margin-right: 340px;
@@ -85,6 +86,8 @@ width: 40%;
 .info .nom{
 margin-left: 42%;
 }
+
+
 .info .transition{
     
     display: block;
@@ -96,17 +99,13 @@ margin-left: 42%;
 background-color: rgb(112, 181, 254); ;
 }
 
-.info .question{
-    margin-left: 42%;
-    margin-top: 3%;
+.info .box {
+    display: flex;
+    justify-content: space-between;
 }
 
-.info .reponce{
-
-    margin-top: -18%;
-    margin-left: 66%;
-
-
+.info .box .question{
+    margin-left: 3%;
 }
 
 .info .reponce h2{
@@ -115,11 +114,13 @@ background-color: rgb(112, 181, 254); ;
 
 .info .reseaux{
     display: flex ;
+    float: left;
     background-color: rgb(112, 181, 254);
     border-bottom-left-radius: 100px;
     border-bottom-right-radius: 100px;
     z-index: 10;
-
+    padding-right: 100%;
+    padding: 2%;
 }
 
 .info .reseaux  img {
@@ -130,4 +131,3 @@ background-color: rgb(112, 181, 254); ;
     
 
 }
-
